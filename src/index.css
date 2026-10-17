@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Satoshi", ui-sans-serif, system-ui, sans-serif;
+  --font-akira: "Akira Expanded", "Satoshi", ui-sans-serif, sans-serif;
+  --color-primary: #012158;
+  --color-primary-light: #0a3378;
+  --color-accent: #f1c30c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white font-sans text-slate-900 antialiased;
+}
